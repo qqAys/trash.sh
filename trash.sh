@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# https://github.com/qqAys/trash.sh
+
 # 垃圾桶
 TRASH_DIR=~/.trash
 
