@@ -34,6 +34,12 @@ if [ "$1" == "-c" ]; then
     exit 0
 fi
 
+# 判断非空
+if [ "${#@}" -eq 0 ]; then
+    echo "No files or directories provided."
+    exit 1
+fi
+
 # 显示预移动的文件或文件夹
 for FILE in "$@"; do
     if [ -e "$FILE" ]; then
