@@ -1,4 +1,4 @@
-[中文](./README_zh-CN.md)
+[中文](./README.zh-CN.md)
 
 # trash.sh
 `trash.sh` is a script that serves as a safe alternative to `rm`, allowing for secure handling of files and directories by moving them to a trash bin instead of permanently deleting them.
